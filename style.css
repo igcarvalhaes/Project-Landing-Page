@@ -69,6 +69,13 @@ body {
     color:#F9FAF8;
 }
 
+.secondary-button:hover {
+    cursor: pointer;
+    background-color: #F9FAF8;
+    border: 1px #F9FAF8 solid;
+    color: #1F2937;
+}
+
 #header {
     background-color: #1F2937;
 }
@@ -131,7 +138,7 @@ body {
     display: flex;
     margin-top: 30px;
     justify-content: center;
-    gap: 30px
+    gap: 20px
 
 }
 
@@ -204,10 +211,6 @@ body {
 
 .card-subtext {
     font-size: 14px;
-}
-
-.secondary-button:hover {
-    cursor: pointer;
 }
 
 #footer {
