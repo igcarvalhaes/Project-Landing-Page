@@ -27,9 +27,25 @@ body {
     color: #F9FAF8; 
 }
 
+.secondary-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+
+}
+
 .subtext {
     font-size: 18px;
     color: #e5e7eba9;
+}
+
+.text-color-alternative {
+    color: #5f6163;
+}
+
+.boost-text {
+    font-weight: bolder;
 }
 
 .primary-button {
@@ -43,6 +59,14 @@ body {
 .primary-button:hover {
     cursor: pointer;
     background-color: #126af7;
+}
+
+.secondary-button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px #F9FAF8 solid;
+    color:#F9FAF8;
 }
 
 .header {
@@ -94,4 +118,65 @@ body {
 
 .main-right img:hover {
     transform: scale(0.99);
+    cursor: pointer;
+}
+
+.img-galery {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-wrap {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 30px
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    border: 3px #5f6163 solid;
+    border-radius: 20px;
+    transition: transform .05s;
+    
+}
+
+.card img:hover {
+    transform: scale(0.99);
+    cursor: pointer;
+}
+
+.card-text {
+    width: 220px;
+}
+
+.testimonials {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.tertiary-text {
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+}
+
+.tertiary-subtext {
+    margin-left: 600px;
+    color: #1F2937;
+
 }
