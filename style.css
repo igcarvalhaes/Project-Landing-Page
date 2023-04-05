@@ -68,6 +68,10 @@ body {
     text-decoration: none;
 }
 
+.navbar ul li a:hover {
+    color: #F9FAF8;
+}
+
 .main-content {
     display: flex;
     justify-content: center;
